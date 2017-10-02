@@ -28,13 +28,13 @@ class Header extends Component {
             {this.renderContent()}
           </ul>
         </div>
-      </nav>
-      <form method="post" action="/addname">
+        <form method="post" action="/addname">
  <label>Enter Your Name</label><br>
  <input type="text" name="firstName" placeholder="Enter first name..." required>
  <input type="text" name="lastName" placeholder="Enter last name..." required>
  <input type="submit" value="Add Name">
  </form>
+      </nav>
     );
   }
 }
