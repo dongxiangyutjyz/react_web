@@ -22,18 +22,12 @@ class Header extends Component {
           to={this.props.auth ? '/forms':'/'}
           className = "left brand-logo"
           >
-            Emaily
+            Better Sell
           </Link>
           <ul className = "right">
             {this.renderContent()}
           </ul>
         </div>
-        <form method="post" action="/addname">
- <label>Enter Your Name</label><br>
- <input type="text" name="firstName" placeholder="Enter first name..." required>
- <input type="text" name="lastName" placeholder="Enter last name..." required>
- <input type="submit" value="Add Name">
- </form>
       </nav>
     );
   }

@@ -4,9 +4,8 @@ import {connect} from 'react-redux';
 const Landing = () => {
   return (
     <div>
-      <h1>
-        About Us
-      </h1>
+      <h1>Landing</h1>
+
     </div>
   );
 };
