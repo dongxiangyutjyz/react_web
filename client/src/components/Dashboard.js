@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/*import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 const Dashboard = () => {
@@ -13,3 +13,5 @@ const Dashboard = () => {
     </div>
   )
 }
+
+export default Dashboard;
