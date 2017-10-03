@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-const express = require('express');
+/*const express = require('express');
 const mongoose = require('mongoose');
-const {Schema} = mongoose;
 const mongoURI = 'mongodb://xdong2:James__1998@ds141534.mlab.com:41534/xdong2_emaily_dev';
+const {Schema} = mongoose;
 
 mongoose.connect(mongoURI);
 
@@ -12,10 +12,10 @@ const app = express();
 const DescriptionSchema = new Schema({
   firstName: String
   //lastName = String;
-  /*gender = String;
-  number = String;
-  broken = String;
-  broken_description = String;*/
+  //gender = String;
+  //number = String;
+  //broken = String;
+  //broken_description = String;
 });
 
 var Description = mongoose.model('Description',DescriptionSchema);
@@ -29,7 +29,7 @@ app.post('/addname',(req,res) => {
     .catch(err => {
         res.status(400).send("Unable to save to database");
     });
-});
+});*/
 
 const Forms = () => {
   return (
