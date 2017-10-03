@@ -4,6 +4,7 @@ const keys = require('./config/keys');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 require('./models/User');
+require('./models/Forms');
 require('./services/passport');
 
 
@@ -22,6 +23,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require('./routes/authRoutes')(app);
+require('./routes/formRoutes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   //Express will serve up production assests
