@@ -4,9 +4,9 @@ import { connect}from 'react-redux';
 import * as actions from '../actions';
 
 import Header from './Header';
-import Landing from './Landing';
 import Forms from './Forms';
 import Dashboard from './Dashboard';
+import Landing from './Landing';
 
 const SurveyNew = () => <h2>SurveyNew</h2>;
 
